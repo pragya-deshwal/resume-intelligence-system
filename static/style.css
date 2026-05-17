@@ -1,0 +1,52 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+
+    background: linear-gradient(135deg, #ffe4e6, #e0f2fe, #fef3c7);
+    background-size: 200% 200%;
+    animation: gradientMove 12s ease infinite;
+
+    color: #1f2937;
+}
+
+@keyframes gradientMove {
+    0% {background-position: 0% 50%;}
+    50% {background-position: 100% 50%;}
+    100% {background-position: 0% 50%;}
+}
+
+h1, h2, h3, h4, h5, h6, p, label {
+    color: #1f2937;
+}
+
+.card {
+    background: rgba(255, 255, 255, 0.85);
+    border: none;
+    border-radius: 12px;
+    backdrop-filter: blur(10px);
+    transition: 0.3s;
+    color: #1f2937;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.header {
+    background: linear-gradient(135deg, #4f46e5, #06b6d4);
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.btn {
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    transform: scale(1.05);
+}
+
+.high { color: #16a34a; }
+.medium { color: #f59e0b; }
+.low { color: #dc2626; }
