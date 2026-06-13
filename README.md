@@ -53,6 +53,29 @@ An AI-powered system that evaluates resumes against job descriptions using seman
 - Add recruiter feedback loop
 - Deploy as SaaS platform
 
+## Demo
+
+### Output 1
+![Output 1](images/Output%201.png)
+
+### Output 2
+![Output 2](images/Output%202.png)
+
+### Output 3
+![Output 3](images/Output%203.png)
+
+### Output 4
+![Output 4](images/Output%204.png)
+
+### Output 5
+![Output 5](images/Output%205.png)
+
+### Output 6
+![Output 6](images/Output%206.png)
+
+### Output 7
+![Output 7](images/Output%207.png)
+
 ## Installation
 
 ```bash
